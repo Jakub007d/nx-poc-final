@@ -18,6 +18,9 @@
   "nx": {
     "name": "multi"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "tslib": "^2.3.0",
     "@jakub007d/plus": "0.0.3"
