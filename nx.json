@@ -31,9 +31,6 @@
     "version": {
       "conventionalCommits": true,
       "fallbackCurrentVersionResolver": "disk"
-    },
-    "publishTargets": {
-      "skipExisting": true
     }
   },
   "namedInputs": {
