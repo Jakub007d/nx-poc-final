@@ -1,6 +1,6 @@
 {
   "name": "@jakub007d/multi",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "type": "module",
   "main": "./dist/index.js",
@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "tslib": "^2.3.0",
-    "@jakub007d/plus": "0.2.1"
+    "@jakub007d/plus": "0.2.2"
   }
 }
