@@ -152,16 +152,24 @@
             },
             "cache": true,
             "inputs": [
-              "{projectRoot}/package.json",
-              "{workspaceRoot}/tsconfig.base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/tsconfig.lib.json",
-              "{projectRoot}/src/**/*.ts",
+              "default",
               "^default"
             ],
             "outputs": [
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/**/*.cjs",
+              "{projectRoot}/**/*.mjs",
+              "{projectRoot}/**/*.jsx",
+              "{projectRoot}/**/*.js.map",
+              "{projectRoot}/**/*.jsx.map",
+              "{projectRoot}/**/*.d.ts",
+              "{projectRoot}/**/*.d.cts",
+              "{projectRoot}/**/*.d.mts",
+              "{projectRoot}/**/*.d.ts.map",
+              "{projectRoot}/**/*.d.cts.map",
+              "{projectRoot}/**/*.d.mts.map",
+              "{projectRoot}/tsconfig.tsbuildinfo",
               "{projectRoot}/dist/**/*.d.ts",
-              "{projectRoot}/dist/**/*.d.ts.map",
               "{projectRoot}/dist/tsconfig.lib.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -354,7 +362,7 @@
             ],
             "executor": "nx:run-commands",
             "options": {
-              "command": "npx nx watch --projects plus --includeDependentProjects -- npx nx build-deps plus"
+              "command": "npx nx watch --projects @jakub007d/plus --includeDependentProjects -- npx nx build-deps @jakub007d/plus"
             },
             "configurations": {},
             "parallelism": true
@@ -7205,5 +7213,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761134216406
+  "computedAt": 1761136019452
 }
