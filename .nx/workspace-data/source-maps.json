@@ -112,7 +112,7 @@
       "packages/minus/package.json",
       "nx/core/package-json"
     ],
-    "tags.npm:private": [
+    "tags.npm:public": [
       "packages/minus/package.json",
       "nx/core/package-json"
     ],
@@ -141,6 +141,22 @@
       "nx/core/package-json"
     ],
     "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
       "packages/minus/package.json",
       "nx/core/package-json"
     ],
@@ -322,7 +338,7 @@
       "packages/multi/package.json",
       "nx/core/package-json"
     ],
-    "tags.npm:private": [
+    "tags.npm:public": [
       "packages/multi/package.json",
       "nx/core/package-json"
     ],
@@ -351,6 +367,22 @@
       "nx/core/package-json"
     ],
     "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
       "packages/multi/package.json",
       "nx/core/package-json"
     ],
@@ -532,7 +564,7 @@
       "packages/plus/package.json",
       "nx/core/package-json"
     ],
-    "tags.npm:private": [
+    "tags.npm:public": [
       "packages/plus/package.json",
       "nx/core/package-json"
     ],
@@ -561,6 +593,22 @@
       "nx/core/package-json"
     ],
     "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
       "packages/plus/package.json",
       "nx/core/package-json"
     ],

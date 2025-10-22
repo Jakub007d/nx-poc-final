@@ -95,6 +95,15 @@
             "configurations": {},
             "parallelism": true
           },
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "@nx/eslint:lint",
             "options": {
@@ -109,14 +118,14 @@
         "name": "@jakub007d/minus",
         "projectType": "library",
         "tags": [
-          "npm:private",
+          "npm:public",
           "0.0.1"
         ],
         "metadata": {
           "targetGroups": {},
           "js": {
             "packageName": "@jakub007d/minus",
-            "packageVersion": "0.0.1",
+            "packageVersion": "0.1.1",
             "packageExports": {
               "./package.json": "./package.json",
               ".": {
@@ -230,6 +239,15 @@
             "configurations": {},
             "parallelism": true
           },
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "@nx/eslint:lint",
             "options": {
@@ -244,14 +262,14 @@
         "name": "@jakub007d/multi",
         "projectType": "library",
         "tags": [
-          "npm:private",
+          "npm:public",
           "0.0.1"
         ],
         "metadata": {
           "targetGroups": {},
           "js": {
             "packageName": "@jakub007d/multi",
-            "packageVersion": "0.0.1",
+            "packageVersion": "0.1.2",
             "packageExports": {
               "./package.json": "./package.json",
               ".": {
@@ -367,6 +385,15 @@
             "configurations": {},
             "parallelism": true
           },
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "@nx/eslint:lint",
             "options": {
@@ -381,14 +408,14 @@
         "name": "@jakub007d/plus",
         "projectType": "library",
         "tags": [
-          "npm:private",
+          "npm:public",
           "0.0.1"
         ],
         "metadata": {
           "targetGroups": {},
           "js": {
             "packageName": "@jakub007d/plus",
-            "packageVersion": "0.0.1",
+            "packageVersion": "0.2.1",
             "packageExports": {
               "./package.json": "./package.json",
               ".": {
@@ -7213,5 +7240,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761136019452
+  "computedAt": 1761138029034
 }

@@ -20,39 +20,6 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "@jakub007d/plus": [
-        {
-          "file": "packages/plus/README.md",
-          "hash": "4033432873202729435"
-        },
-        {
-          "file": "packages/plus/package.json",
-          "hash": "4377305861416427819",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "packages/plus/project.json",
-          "hash": "11929287297332716790"
-        },
-        {
-          "file": "packages/plus/src/index.ts",
-          "hash": "13672099736504408773"
-        },
-        {
-          "file": "packages/plus/src/lib/plus.ts",
-          "hash": "10248484027904258299"
-        },
-        {
-          "file": "packages/plus/tsconfig.json",
-          "hash": "15856989918287211863"
-        },
-        {
-          "file": "packages/plus/tsconfig.lib.json",
-          "hash": "3009927614265213731"
-        }
-      ],
       "@jakub007d/multi": [
         {
           "file": "packages/multi/README.md",
@@ -60,7 +27,7 @@
         },
         {
           "file": "packages/multi/package.json",
-          "hash": "7988116703057950607",
+          "hash": "5840730238344175856",
           "deps": [
             "npm:tslib",
             "@jakub007d/plus"
@@ -76,7 +43,7 @@
         },
         {
           "file": "packages/multi/src/lib/multi.ts",
-          "hash": "1013206569310724510",
+          "hash": "5444941315248265641",
           "deps": [
             "@jakub007d/plus"
           ]
@@ -90,6 +57,39 @@
           "hash": "3009927614265213731"
         }
       ],
+      "@jakub007d/plus": [
+        {
+          "file": "packages/plus/README.md",
+          "hash": "4033432873202729435"
+        },
+        {
+          "file": "packages/plus/package.json",
+          "hash": "8313204203493071945",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/plus/project.json",
+          "hash": "11929287297332716790"
+        },
+        {
+          "file": "packages/plus/src/index.ts",
+          "hash": "13672099736504408773"
+        },
+        {
+          "file": "packages/plus/src/lib/plus.ts",
+          "hash": "8373529539797980580"
+        },
+        {
+          "file": "packages/plus/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/plus/tsconfig.lib.json",
+          "hash": "3009927614265213731"
+        }
+      ],
       "@jakub007d/minus": [
         {
           "file": "packages/minus/README.md",
@@ -97,7 +97,7 @@
         },
         {
           "file": "packages/minus/package.json",
-          "hash": "17217930419081496332",
+          "hash": "16801378369664216928",
           "deps": [
             "npm:tslib"
           ]
@@ -127,7 +127,7 @@
     "nonProjectFiles": [
       {
         "file": ".github/workflows/release-and-publish.yml",
-        "hash": "15820086815539605858"
+        "hash": "3334750602416901524"
       },
       {
         "file": ".prettierignore",
@@ -143,7 +143,7 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "1425538263016581753"
+        "hash": "8450799359904808027"
       },
       {
         "file": "package.json",
