@@ -1,0 +1,632 @@
+{
+  "packages/minus": {
+    "root": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "packages/minus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps": [
+      "packages/minus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.continuous": [
+      "packages/minus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "packages/minus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.executor": [
+      "packages/minus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options": [
+      "packages/minus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options.command": [
+      "packages/minus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/minus/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "dependencies": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.0.0.1": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "packages/minus/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/multi": {
+    "root": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "packages/multi/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps": [
+      "packages/multi/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.continuous": [
+      "packages/multi/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "packages/multi/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.executor": [
+      "packages/multi/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options": [
+      "packages/multi/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options.command": [
+      "packages/multi/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/multi/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "dependencies": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.0.0.1": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "packages/multi/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/plus": {
+    "root": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "packages/plus/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps": [
+      "packages/plus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.continuous": [
+      "packages/plus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "packages/plus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.executor": [
+      "packages/plus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options": [
+      "packages/plus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options.command": [
+      "packages/plus/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "name": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/plus/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "dependencies": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.0.0.1": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "packages/plus/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

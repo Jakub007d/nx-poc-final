@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": ".//packages"
+    },
+    {
+      "path": ".//packages"
+    },
+    {
+      "path": ".//packages/minus"
+    },
+    {
+      "path": ".//packages/plus"
+    },
+    {
+      "path": ".//packages/plus"
+    },
+    {
+      "path": ".//packages/minus"
+    },
+    {
+      "path": ".//packages/multi"
+    }
+  ]
+}

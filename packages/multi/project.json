@@ -1,0 +1,28 @@
+{
+  "name": "@jakub007d/multi",
+  
+  "sourceRoot": "packages/multi/src",
+  "projectType": "library",
+  "tags": ["0.0.1"],
+  
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/multi",
+        "main": "packages/multi/src/index.ts",
+        "tsConfig": "packages/multi/tsconfig.lib.json",
+        "assets": ["packages/multi/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "options": {
+        "lintFilePatterns": ["LINT_PATTERNS"]
+      }
+    }
+  },
+  "implicitDependencies": [],
+  "dependencies": ["@jakub007d/plus"]
+}

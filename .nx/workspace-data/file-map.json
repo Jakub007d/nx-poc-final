@@ -1,0 +1,163 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.6.5",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "@jakub007d/plus": [
+        {
+          "file": "packages/plus/README.md",
+          "hash": "4033432873202729435"
+        },
+        {
+          "file": "packages/plus/package.json",
+          "hash": "4377305861416427819",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/plus/project.json",
+          "hash": "11929287297332716790"
+        },
+        {
+          "file": "packages/plus/src/index.ts",
+          "hash": "13672099736504408773"
+        },
+        {
+          "file": "packages/plus/src/lib/plus.ts",
+          "hash": "10248484027904258299"
+        },
+        {
+          "file": "packages/plus/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/plus/tsconfig.lib.json",
+          "hash": "3009927614265213731"
+        }
+      ],
+      "@jakub007d/multi": [
+        {
+          "file": "packages/multi/README.md",
+          "hash": "3590454643731277305"
+        },
+        {
+          "file": "packages/multi/package.json",
+          "hash": "7988116703057950607",
+          "deps": [
+            "npm:tslib",
+            "@jakub007d/plus"
+          ]
+        },
+        {
+          "file": "packages/multi/project.json",
+          "hash": "18370208550147000432"
+        },
+        {
+          "file": "packages/multi/src/index.ts",
+          "hash": "11728618028882958680"
+        },
+        {
+          "file": "packages/multi/src/lib/multi.ts",
+          "hash": "1013206569310724510",
+          "deps": [
+            "@jakub007d/plus"
+          ]
+        },
+        {
+          "file": "packages/multi/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/multi/tsconfig.lib.json",
+          "hash": "3009927614265213731"
+        }
+      ],
+      "@jakub007d/minus": [
+        {
+          "file": "packages/minus/README.md",
+          "hash": "4265600759986743497"
+        },
+        {
+          "file": "packages/minus/package.json",
+          "hash": "17217930419081496332",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/minus/project.json",
+          "hash": "1666318305648488737"
+        },
+        {
+          "file": "packages/minus/src/index.ts",
+          "hash": "18250476093203117674"
+        },
+        {
+          "file": "packages/minus/src/lib/minus.ts",
+          "hash": "2048082930239451757"
+        },
+        {
+          "file": "packages/minus/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/minus/tsconfig.lib.json",
+          "hash": "3009927614265213731"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".github/workflows/release-and-publish.yml",
+        "hash": "15820086815539605858"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1348842701165587560"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13250364003206124935"
+      },
+      {
+        "file": "package.json",
+        "hash": "7342499980794990229"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "14054035427953100875"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9018386315723558332"
+      }
+    ]
+  },
+  "externalNodesHash": "11616216605079294142"
+}

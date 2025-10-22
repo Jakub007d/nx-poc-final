@@ -1,0 +1,28 @@
+{
+  "name": "@jakub007d/plus",
+  
+  "sourceRoot": "packages/plus/src",
+  "projectType": "library",
+  "tags": ["0.0.1"],
+  
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/plus",
+        "main": "packages/plus/src/index.ts",
+        "tsConfig": "packages/plus/tsconfig.lib.json",
+        "assets": ["packages/addition/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "options": {
+        "lintFilePatterns": ["{LINT_PATTERNS}"]
+      }
+    }
+  },
+  "implicitDependencies": [],
+  "dependencies": []
+}
