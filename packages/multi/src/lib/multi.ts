@@ -5,5 +5,5 @@ export function multi(n1: number, n2: number): number {
   for (let i = 0; i < n2; i++) {
     result = plus(result, n1);
   }
-  return result;
+  return result + 0;
 }
