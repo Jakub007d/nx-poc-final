@@ -23,7 +23,7 @@
   "release": {
     "projects": ["@jakub007d/plus", "@jakub007d/minus", "@jakub007d/multi"],
     "changelog": {
-      "workspaceChangelog": {
+      "projectChangelogs": {
         "createRelease": "github"
       }
     },

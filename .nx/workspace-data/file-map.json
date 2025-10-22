@@ -20,6 +20,39 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "@jakub007d/minus": [
+        {
+          "file": "packages/minus/README.md",
+          "hash": "4265600759986743497"
+        },
+        {
+          "file": "packages/minus/package.json",
+          "hash": "16801378369664216928",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/minus/project.json",
+          "hash": "1666318305648488737"
+        },
+        {
+          "file": "packages/minus/src/index.ts",
+          "hash": "18250476093203117674"
+        },
+        {
+          "file": "packages/minus/src/lib/minus.ts",
+          "hash": "2048082930239451757"
+        },
+        {
+          "file": "packages/minus/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/minus/tsconfig.lib.json",
+          "hash": "3009927614265213731"
+        }
+      ],
       "@jakub007d/multi": [
         {
           "file": "packages/multi/README.md",
@@ -87,39 +120,6 @@
         },
         {
           "file": "packages/plus/tsconfig.lib.json",
-          "hash": "3009927614265213731"
-        }
-      ],
-      "@jakub007d/minus": [
-        {
-          "file": "packages/minus/README.md",
-          "hash": "4265600759986743497"
-        },
-        {
-          "file": "packages/minus/package.json",
-          "hash": "16801378369664216928",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "packages/minus/project.json",
-          "hash": "1666318305648488737"
-        },
-        {
-          "file": "packages/minus/src/index.ts",
-          "hash": "18250476093203117674"
-        },
-        {
-          "file": "packages/minus/src/lib/minus.ts",
-          "hash": "2048082930239451757"
-        },
-        {
-          "file": "packages/minus/tsconfig.json",
-          "hash": "15856989918287211863"
-        },
-        {
-          "file": "packages/minus/tsconfig.lib.json",
           "hash": "3009927614265213731"
         }
       ]
