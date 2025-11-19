@@ -1,3 +1,21 @@
+## 2.1.0 (2025-11-19)
+
+### 🚀 Features
+
+- **multi:** add square function for calculating n² ([71d4428](https://github.com/Jakub007d/nx-poc-final/commit/71d4428))
+
+### 🩹 Fixes
+
+- **multi:** correct JSDoc description of multiplier requirement ([c8c3196](https://github.com/Jakub007d/nx-poc-final/commit/c8c3196))
+
+### 🧱 Updated Dependencies
+
+- Updated @jakub007d/plus to 0.5.0
+
+### ❤️ Thank You
+
+- Jakub007d
+
 # 2.0.0 (2025-11-19)
 
 ### 🩹 Fixes

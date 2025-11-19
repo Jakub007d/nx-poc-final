@@ -1,3 +1,13 @@
+## 0.4.0 (2025-11-19)
+
+### 🚀 Features
+
+- **minus:** add absoluteDifference function for calculating |n1 - n2| ([270ab04](https://github.com/Jakub007d/nx-poc-final/commit/270ab04))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.3.0 (2025-11-19)
 
 ### 🚀 Features

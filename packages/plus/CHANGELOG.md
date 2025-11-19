@@ -1,3 +1,13 @@
+## 0.5.0 (2025-11-19)
+
+### 🚀 Features
+
+- **plus:** add average function to calculate mean of numbers ([ca83eb7](https://github.com/Jakub007d/nx-poc-final/commit/ca83eb7))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.4.0 (2025-11-19)
 
 ### 🚀 Features
