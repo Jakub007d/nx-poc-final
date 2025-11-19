@@ -1,3 +1,17 @@
+## 2.1.1 (2025-11-19)
+
+### 🩹 Fixes
+
+- **multi:** add 0 to square return value ([30c322a](https://github.com/Jakub007d/nx-poc-final/commit/30c322a))
+
+### 🧱 Updated Dependencies
+
+- Updated @jakub007d/plus to 0.5.1
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 2.1.0 (2025-11-19)
 
 ### 🚀 Features

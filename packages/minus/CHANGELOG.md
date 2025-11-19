@@ -1,3 +1,13 @@
+## 0.4.1 (2025-11-19)
+
+### 🩹 Fixes
+
+- **minus:** add 0 to divide return value ([2a2a13f](https://github.com/Jakub007d/nx-poc-final/commit/2a2a13f))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.4.0 (2025-11-19)
 
 ### 🚀 Features

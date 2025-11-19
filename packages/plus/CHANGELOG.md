@@ -1,3 +1,13 @@
+## 0.5.1 (2025-11-19)
+
+### 🩹 Fixes
+
+- **plus:** add 0 to zero case return value ([175c463](https://github.com/Jakub007d/nx-poc-final/commit/175c463))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.5.0 (2025-11-19)
 
 ### 🚀 Features
