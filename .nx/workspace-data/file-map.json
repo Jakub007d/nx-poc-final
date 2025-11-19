@@ -20,14 +20,92 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "@jakub007d/plus": [
+        {
+          "file": "packages/plus/CHANGELOG.md",
+          "hash": "3423181641554346410"
+        },
+        {
+          "file": "packages/plus/README.md",
+          "hash": "4033432873202729435"
+        },
+        {
+          "file": "packages/plus/package.json",
+          "hash": "880208380915621812",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/plus/project.json",
+          "hash": "11929287297332716790"
+        },
+        {
+          "file": "packages/plus/src/index.ts",
+          "hash": "13672099736504408773"
+        },
+        {
+          "file": "packages/plus/src/lib/plus.ts",
+          "hash": "12809447407004253240"
+        },
+        {
+          "file": "packages/plus/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/plus/tsconfig.lib.json",
+          "hash": "3009927614265213731"
+        }
+      ],
+      "@jakub007d/minus": [
+        {
+          "file": "packages/minus/CHANGELOG.md",
+          "hash": "719388560209427940"
+        },
+        {
+          "file": "packages/minus/README.md",
+          "hash": "4265600759986743497"
+        },
+        {
+          "file": "packages/minus/package.json",
+          "hash": "12989176848066488636",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/minus/project.json",
+          "hash": "1666318305648488737"
+        },
+        {
+          "file": "packages/minus/src/index.ts",
+          "hash": "18250476093203117674"
+        },
+        {
+          "file": "packages/minus/src/lib/minus.ts",
+          "hash": "8100828057953808156"
+        },
+        {
+          "file": "packages/minus/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "packages/minus/tsconfig.lib.json",
+          "hash": "3009927614265213731"
+        }
+      ],
       "@jakub007d/multi": [
+        {
+          "file": "packages/multi/CHANGELOG.md",
+          "hash": "6317405223677098496"
+        },
         {
           "file": "packages/multi/README.md",
           "hash": "3590454643731277305"
         },
         {
           "file": "packages/multi/package.json",
-          "hash": "5840730238344175856",
+          "hash": "17533177787338111637",
           "deps": [
             "npm:tslib",
             "@jakub007d/plus"
@@ -43,7 +121,7 @@
         },
         {
           "file": "packages/multi/src/lib/multi.ts",
-          "hash": "5444941315248265641",
+          "hash": "1013206569310724510",
           "deps": [
             "@jakub007d/plus"
           ]
@@ -54,72 +132,6 @@
         },
         {
           "file": "packages/multi/tsconfig.lib.json",
-          "hash": "3009927614265213731"
-        }
-      ],
-      "@jakub007d/plus": [
-        {
-          "file": "packages/plus/README.md",
-          "hash": "4033432873202729435"
-        },
-        {
-          "file": "packages/plus/package.json",
-          "hash": "8313204203493071945",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "packages/plus/project.json",
-          "hash": "11929287297332716790"
-        },
-        {
-          "file": "packages/plus/src/index.ts",
-          "hash": "13672099736504408773"
-        },
-        {
-          "file": "packages/plus/src/lib/plus.ts",
-          "hash": "8373529539797980580"
-        },
-        {
-          "file": "packages/plus/tsconfig.json",
-          "hash": "15856989918287211863"
-        },
-        {
-          "file": "packages/plus/tsconfig.lib.json",
-          "hash": "3009927614265213731"
-        }
-      ],
-      "@jakub007d/minus": [
-        {
-          "file": "packages/minus/README.md",
-          "hash": "4265600759986743497"
-        },
-        {
-          "file": "packages/minus/package.json",
-          "hash": "16801378369664216928",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "packages/minus/project.json",
-          "hash": "1666318305648488737"
-        },
-        {
-          "file": "packages/minus/src/index.ts",
-          "hash": "18250476093203117674"
-        },
-        {
-          "file": "packages/minus/src/lib/minus.ts",
-          "hash": "2048082930239451757"
-        },
-        {
-          "file": "packages/minus/tsconfig.json",
-          "hash": "15856989918287211863"
-        },
-        {
-          "file": "packages/minus/tsconfig.lib.json",
           "hash": "3009927614265213731"
         }
       ]
@@ -139,11 +151,11 @@
       },
       {
         "file": "nx.json",
-        "hash": "11161061964993541142"
+        "hash": "5514309707723243480"
       },
       {
         "file": "package-lock.json",
-        "hash": "8450799359904808027"
+        "hash": "5287514231073762663"
       },
       {
         "file": "package.json",

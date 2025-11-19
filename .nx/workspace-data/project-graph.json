@@ -125,7 +125,7 @@
           "targetGroups": {},
           "js": {
             "packageName": "@jakub007d/minus",
-            "packageVersion": "0.1.5",
+            "packageVersion": "0.2.0",
             "packageExports": {
               "./package.json": "./package.json",
               ".": {
@@ -269,7 +269,7 @@
           "targetGroups": {},
           "js": {
             "packageName": "@jakub007d/multi",
-            "packageVersion": "0.1.6",
+            "packageVersion": "1.0.0",
             "packageExports": {
               "./package.json": "./package.json",
               ".": {
@@ -415,7 +415,7 @@
           "targetGroups": {},
           "js": {
             "packageName": "@jakub007d/plus",
-            "packageVersion": "0.2.4",
+            "packageVersion": "0.3.0",
             "packageExports": {
               "./package.json": "./package.json",
               ".": {
@@ -7240,5 +7240,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761138634722
+  "computedAt": 1763557660226
 }

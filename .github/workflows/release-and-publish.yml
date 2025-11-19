@@ -46,7 +46,6 @@ jobs:
       - name: 🚀 Run Nx Release
         run: |
           echo "registry=https://registry.npmjs.org/" >> .npmrc
-          npx nx release --skip-publish --verbose
-          npx nx release publish --skip-existing --verbose
+          npx nx release -y
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
