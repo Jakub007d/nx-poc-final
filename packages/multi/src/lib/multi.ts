@@ -27,5 +27,5 @@ export function multi(n1: number, n2: number): number {
  * @returns The square of n (n * n)
  */
 export function square(n: number): number {
-  return multi(n, Math.abs(Math.floor(n)));
+  return multi(n, Math.abs(Math.floor(n))) + 0;
 }
