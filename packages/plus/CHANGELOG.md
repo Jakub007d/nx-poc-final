@@ -1,3 +1,13 @@
+## 0.4.0 (2025-11-19)
+
+### 🚀 Features
+
+- **plus:** add sum function for adding multiple numbers ([ce127af](https://github.com/Jakub007d/nx-poc-final/commit/ce127af))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.3.0 (2025-10-22)
 
 ### 🚀 Features

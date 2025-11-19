@@ -1,3 +1,13 @@
+## 0.3.0 (2025-11-19)
+
+### 🚀 Features
+
+- **minus:** add modulo function for calculating remainders ([5a14fb2](https://github.com/Jakub007d/nx-poc-final/commit/5a14fb2))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.2.0 (2025-11-19)
 
 ### 🚀 Features
