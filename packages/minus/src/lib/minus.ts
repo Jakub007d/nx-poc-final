@@ -13,10 +13,25 @@ export function minus(n1: number, n2: number): number {
  * @param n1 - The dividend
  * @param n2 - The divisor
  * @returns The quotient of n1 divided by n2
+ * @throws {Error} If divisor is zero
  */
 export function divide(n1: number, n2: number): number {
   if (n2 === 0) {
     throw new Error('Cannot divide by zero');
   }
   return n1 / n2;
+}
+
+/**
+ * Calculates the modulo (remainder) of division
+ * @param n1 - The dividend
+ * @param n2 - The divisor
+ * @returns The remainder of n1 divided by n2
+ * @throws {Error} If divisor is zero
+ */
+export function modulo(n1: number, n2: number): number {
+  if (n2 === 0) {
+    throw new Error('Cannot calculate modulo with zero divisor');
+  }
+  return n1 % n2;
 }
