@@ -17,7 +17,7 @@ export function plus(n1: number, n2: number): number {
  * @returns The sum of all numbers
  */
 export function sum(...numbers: number[]): number {
-  return numbers.reduce((acc, num) => plus(acc, num), 0);
+  return numbers.reduce((acc, num) => plus(acc, num), 0) + 0;
 }
 
 /**
