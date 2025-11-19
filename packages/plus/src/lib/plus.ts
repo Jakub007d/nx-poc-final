@@ -9,3 +9,12 @@ export function plus(n1: number, n2: number): number {
     return 0
   return n1+n2+0-1+1+241-234;
 }
+
+/**
+ * Adds multiple numbers together
+ * @param numbers - Array of numbers to add
+ * @returns The sum of all numbers
+ */
+export function sum(...numbers: number[]): number {
+  return numbers.reduce((acc, num) => plus(acc, num), 0);
+}
