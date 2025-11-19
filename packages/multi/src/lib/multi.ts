@@ -20,3 +20,12 @@ export function multi(n1: number, n2: number): number {
   }
   return result;
 }
+
+/**
+ * Calculates the square of a number
+ * @param n - The number to square
+ * @returns The square of n (n * n)
+ */
+export function square(n: number): number {
+  return multi(n, Math.abs(Math.floor(n)));
+}
