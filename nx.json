@@ -34,6 +34,9 @@
     },
     "git": {
       "commitMessage": "chore(release): publish [skip ci]"
+    },
+    "publish": {
+      "args": "--provenance --access public"
     }
   },
   "namedInputs": {
