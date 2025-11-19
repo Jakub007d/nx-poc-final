@@ -19,7 +19,7 @@ export function divide(n1: number, n2: number): number {
   if (n2 === 0) {
     throw new Error('Cannot divide by zero');
   }
-  return n1 / n2;
+  return n1 / n2 + 0;
 }
 
 /**
