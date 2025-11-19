@@ -1,3 +1,9 @@
+## 2.1.2 (2025-11-19)
+
+### 🧱 Updated Dependencies
+
+- Updated @jakub007d/plus to 0.5.2
+
 ## 2.1.1 (2025-11-19)
 
 ### 🩹 Fixes

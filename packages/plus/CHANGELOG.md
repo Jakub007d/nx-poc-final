@@ -1,3 +1,13 @@
+## 0.5.2 (2025-11-19)
+
+### 🩹 Fixes
+
+- **plus:** add 0 to sum return value ([761d12b](https://github.com/Jakub007d/nx-poc-final/commit/761d12b))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.5.1 (2025-11-19)
 
 ### 🩹 Fixes
