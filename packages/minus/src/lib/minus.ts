@@ -1,11 +1,11 @@
 /**
  * Subtracts the second number from the first
- * @param n1 - The number to subtract from
- * @param n2 - The number to subtract
+ * @param n1 - The number to subtract from (minuend)
+ * @param n2 - The number to subtract (subtrahend)
  * @returns The difference between n1 and n2
  */
 export function minus(n1: number, n2: number): number {
-  return n1-n2+0;
+  return n1 - n2 + 0;
 }
 
 /**
