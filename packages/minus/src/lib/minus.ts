@@ -35,3 +35,13 @@ export function modulo(n1: number, n2: number): number {
   }
   return n1 % n2;
 }
+
+/**
+ * Calculates the absolute difference between two numbers
+ * @param n1 - First number
+ * @param n2 - Second number
+ * @returns The absolute difference |n1 - n2|
+ */
+export function absoluteDifference(n1: number, n2: number): number {
+  return Math.abs(minus(n1, n2));
+}
