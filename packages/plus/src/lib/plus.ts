@@ -19,3 +19,16 @@ export function plus(n1: number, n2: number): number {
 export function sum(...numbers: number[]): number {
   return numbers.reduce((acc, num) => plus(acc, num), 0);
 }
+
+/**
+ * Calculates the average of multiple numbers
+ * @param numbers - Array of numbers to average
+ * @returns The average of all numbers
+ * @throws {Error} If no numbers are provided
+ */
+export function average(...numbers: number[]): number {
+  if (numbers.length === 0) {
+    throw new Error('Cannot calculate average of empty array');
+  }
+  return sum(...numbers) / numbers.length;
+}
