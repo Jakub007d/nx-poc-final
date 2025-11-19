@@ -7,6 +7,9 @@ jobs:
   release:
     name: 🚀 Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write 
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
@@ -16,6 +19,7 @@ jobs:
           # Use a Personal Access Token (PAT) with write permissions
           # This is crucial for pushing the release commit and tags
           token: ${{ secrets.GH_TOKEN }}
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -41,11 +45,8 @@ jobs:
 
       - name: 🚀 Run Nx Release
         run: |
+          echo "registry=https://registry.npmjs.org/" >> .npmrc
           npx nx release --skip-publish --verbose
           npx nx release publish --skip-existing --verbose
         env:
-          # Token for publishing to npm
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          # The same token used for checkout to push to GitHub
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
