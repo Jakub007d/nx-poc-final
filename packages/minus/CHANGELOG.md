@@ -1,3 +1,13 @@
+## 0.2.0 (2025-11-19)
+
+### 🚀 Features
+
+- **minus:** add divide function with zero division check ([fecb8e6](https://github.com/Jakub007d/nx-poc-final/commit/fecb8e6))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 0.1.5 (2025-10-22)
 
 ### 🩹 Fixes
